@@ -21,6 +21,7 @@ class EventPractice extends Component{
         });
     }
 
+
     render(){
         return (
             <div>
@@ -37,8 +38,9 @@ class EventPractice extends Component{
                 type="text"
                 name="message"
                 placeholder="아무거나 입력해보세요"
-                value={this.state.username}
+                value={this.state.message}
                 onChange={this.handleChange}
+                
                />
 
                <button onClick={this.handleClick}>확인</button> 
